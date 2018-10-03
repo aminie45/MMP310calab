@@ -120,8 +120,8 @@ submit3Button.onclick = function () {
             ingredientOneInput.value +
             " slices of chicken with soap to make sure it's clean. " + "Add the 5 lbs of " +
             ingredientTwoInput.value +
-            " to make it spicy " + "Place the chicken in the oven at Temp " +
-            ingredientThreeInput.value + "  After 2 days in the oven, remove & eat " + "If you get using " +
+            " to make it spicy. " + "Place the chicken in the oven at Temp " +
+            ingredientThreeInput.value + "  After 2 days in the oven, remove & eat " + "If you get ill using " +
             ingredientFourInput.value +
             " thats all on you, you dummy!!!";
 
