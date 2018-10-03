@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 input {
     display: block;
     margin: 4.9em auto;
@@ -23,6 +24,17 @@ button {
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 680px;
+=======
+/*SUBMIT BUTTON AND TEXT BOX*/
+
+input,
+button {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+>>>>>>> c827fa99cbbb8bb66a62015a585aea3e70f85a5e
     width: 180px;
 }*/
 
@@ -36,7 +48,9 @@ body {
 p {
     color: red;
     font-family: 'Knewave', cursive;
+
 }
+<<<<<<< HEAD
 
 h1 {
     width:500px;
@@ -52,3 +66,83 @@ h2 {
 }
 
    
+=======
+
+
+h3 {
+    color: darkblue;
+}
+
+/* ID */
+
+#submit {
+    background-color: deepskyblue;
+}
+
+#submit2 {
+    background-color: deepskyblue;
+}
+
+#submit3 {
+    background-color: deepskyblue;
+}
+
+/* ID */
+
+#container {
+    padding: 10% 50% 0% 20%;
+}
+
+#container2 {
+    padding: 10% 50% 0% 20%;
+}
+
+#container3 {
+    padding: 10% 50% 0% 20%;
+}
+
+h1,
+h3 {
+    font-family: 'Slabo 13px', serif;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+input {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+/* ID */
+
+#story {
+    font-family: 'Acme', sans-serif;
+    color: maroon;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#story2 {
+    font-family: 'Acme', sans-serif;
+    color: orangered;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#story3 {
+    font-family: 'Acme', sans-serif;
+    color: deepskyblue;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+>>>>>>> c827fa99cbbb8bb66a62015a585aea3e70f85a5e
