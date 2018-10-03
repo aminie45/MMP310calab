@@ -1,9 +1,20 @@
-input, button {
+input {
     display: block;
-    /*margin-bottom: .5em;*/
-    margin: 0.9em auto;
-    padding: 0.1em 0.9em;
-    width: 180px;
+    margin: 4.9em auto;
+    padding: 0.9em 1.0em;
+    width: 200px;
+    text-align: center;
+    font-size: 0.7e
+}
+
+button {
+    display: block;
+    margin: 4.9em auto;
+    padding: 0.9em 1.0em;
+    width: 200px;
+    font-size: .9em;
+    color: purple;
+
 }
 
 body {
@@ -17,6 +28,15 @@ p {
     color: red;
 }
 
-h3 {
+h1 {
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
     color: darkblue;
+    text-align: center;
+    width:500px;
+    margin: 0 auto;
 }
