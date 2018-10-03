@@ -3,10 +3,14 @@
 <head>
     <title>MMP310 Calab</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-    
+            <!-- FIRST MADLIB START -->
     <div id="container">
         <h1><em>Marlon & Joel</em> - Mad Lib</h1>
         <h2>Fill in the following</h2>
@@ -27,14 +31,62 @@
     
     <button id="submit">Submit</button>
     
-    <p id="story"></p>
     
+        <p id="story"></p>
     
-</div>    
+    </div>
     
-    
-    
+    <!--   SECOND  MADLIB START -->
+    <div id="container2" style="display:none">
+        <h1>Please Try again</h1>
+        <h3>Fill in the following</h3>
+
+        <input type="text" id="oddNumber" placeholder="Enter Odd Number">
+        <p id="oddNumber-error" style=color: red;></p>
+
+        <input type="text" id="shoeSize" placeholder="Enter shoe size">
+        <p id="shoeSize-error" style=color: red;></p>
+
+        <input type="text" id="favouriteSport" placeholder="Enter favourite sport">
+        <p id="favouriteSport-error" style=color: red;></p>
+
+        <input type="text" id="iceCream" placeholder="Enter favourite Ice cream">
+        <p id="iceCream-error" style=color: red;></p>
+
+        <!--SUBMIT BUTTON START-->
+        <button id="submit2">Submit</button>
+        <!--SUBMIT BUTTON END-->
+        <p id="story2"></p>
+
+    </div>
+    <!--SECOND MADLIB ENDS-->
+
+    <!--   THIRD  MADLIB START -->
+    <div id="container3" style="display:none">
+        <h1>Please Try again</h1>
+        <h3>Fill in the following</h3>
+
+        <input type="text" id="car" placeholder="Enter car">
+        <p id="car-error" style=color: red;></p>
+
+        <input type="text" id="pet" placeholder="Enter pet">
+        <p id="pet-error" style=color: red;></p>
+
+        <input type="text" id="month" placeholder="Enter favourite month">
+        <p id="month-error" style=color: red;></p>
+
+        <input type="text" id="color" placeholder="Enter favourite color">
+        <p id="color-error" style=color: red;></p>
+
+        <!--SUBMIT BUTTON START-->
+        <button id="submit3">Submit</button>
+        <!--SUBMIT BUTTON END-->
+        <p id="story3"></p>
+
+    </div>
+    <!--THIRD MADLIB ENDS-->
+
     <script src="app.js"></script>
-    
+
 </body>
 </html>
