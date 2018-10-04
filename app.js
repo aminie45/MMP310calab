@@ -13,7 +13,7 @@ const adjectiveError = document.getElementById('adjective-error');
 const placeInput = document.getElementById('place');
 const placeError = document.getElementById('place-error');
 
-//-----------------MADLIB 2-------------------------------------//
+//-----------------MADLIB  TWO-------------------------------------//
 const submit2Button = document.getElementById('submit2');
 const story2P = document.getElementById('story2');
 
@@ -28,6 +28,22 @@ const favouriteSportError = document.getElementById('favouriteSport-error');
 
 const iceCreamInput = document.getElementById('iceCream');
 const iceCreamError = document.getElementById('iceCream-error');
+
+//-----------------MADLIB  THREE-------------------------------------//
+const submit3Button = document.getElementById('submit3');
+const story3P = document.getElementById('story3');
+
+const ingredientOneInput = document.getElementById('ingredientOne');
+const ingredientOneError = document.getElementById('ingredientOne-error');
+
+const ingredientTwoInput = document.getElementById('ingredientTwo');
+const ingredientTwoError = document.getElementById('ingredientTwo-error');
+
+const ingredientThreeInput = document.getElementById('ingredientThree');
+const ingredientThreeError = document.getElementById('ingredientThree-error');
+
+const ingredientFourInput = document.getElementById('ingredientFour');
+const ingredientFourError = document.getElementById('ingredientFour-error');
 
 submitButton.onclick = function () {
 
@@ -60,13 +76,14 @@ submitButton.onclick = function () {
 
     document.getElementById('container').style.display = 'none';
     document.getElementById('container2').style.display = 'block';
+    document.getElementById('container3').style.display = 'block';
 
 };
 
 
 submit2Button.onclick = function () {
 
-     if (!oddNumberInput.value) {
+    if (!oddNumberInput.value) {
         oddNumberError.textContent = "Please enter a Odd Number";
     } else if (!shoeSizeInput.value) {
         shoeSizeError.textContent = "Please enter a Shoe Size";
@@ -77,8 +94,44 @@ submit2Button.onclick = function () {
     } else {
 
 
+        const story = "One fly fue mdnsadlas danss " +
+            nounInput.value +
+            " parachute. asdkajsdsadj kjas dsing a " +
+            verbInput.value +
+            " parachute. We all " +
+            placeInput.value + " out the plane……now I need new friends & a suit to wear to their funerals. So, who wants to go skydiving with me this weekend? Bring your " +
+            adjectiveInput.value +
+            " parachute!";
+        storyP.textContent = story
 
-        const story = "The keyboard has" + oddNumberInput.value + " odd numbers." + shoeSizeInput.value + "has no value to your life" + favouriteSportInput.value + " " + iceCreamInput;
+
+
+    }
+};
+
+
+submit3Button.onclick = function () {
+
+    if (!ingredientOneInput.value) {
+        ingredientOneError.textContent = "Please enter Ingredient One";
+    } else if (!ingredientTwo.value) {
+        IngredientTwoError.textContent = "Please enter Ingredient Two";
+    } else if (!ingredientThreeInput.value) {
+        ingredientThreeError.textContent = "Please enter Ingredient Three";
+    } else if (!ingredientFourInput.value) {
+        ingredientFourError.textContent = "Please enter Ingredient Four";
+    } else {
+
+
+        const story = "One fly fue mdnsadlas danss " +
+            ingredientOneInput.value +
+            " paraZmxzmls;cs ckasjcs " +
+            ingredientTwoInput.value +
+            " parachute. We all " +
+            ingredientThreeInput.value + "  hxjashc acascj ascha hasx satheir funerals. So, who wants to go skydiving with me this weekend? Bring your " +
+            ingredientFourInput.value +
+            " parachute!";
+        storyP.textContent = story
 
 
 
