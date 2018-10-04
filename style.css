@@ -1,13 +1,17 @@
-input, button {
+/*SUBMIT BUTTON AND TEXT BOX*/
+input,
+button {
     display: block;
-    /*margin-bottom: .5em;*/
-    margin: 0.9em auto;
-    padding: 0.1em 0.9em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 680px;
+
     width: 180px;
 }
 
 body {
-    background-color: greenyellow;
+    background-color: lightgreen;
     font-family: sans-serif;
     font-size: 20px;
     color: darkslategrey;
@@ -15,8 +19,61 @@ body {
 
 p {
     color: red;
+    font-family: 'Knewave', cursive;
+
 }
+
 
 h3 {
     color: darkblue;
+}
+
+/* ID */
+#submit {
+    background-color: deepskyblue;
+}
+#submit2 {
+    background-color: deepskyblue;
+}
+
+/* ID */
+#container {
+    padding: 10% 50% 0% 20%;
+}
+#container2 {
+    padding: 10% 50% 0% 20%;
+}
+
+h1,
+h3 {
+    font-family: 'Slabo 13px', serif;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 680px;
+    width: 25%;
+
+}
+
+input {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 680px;
+
+}
+/* ID */
+#story {
+    font-family: 'Acme', sans-serif;
+    color: maroon;
+
+
+}
+#story2 {
+    font-family: 'Acme', sans-serif;
+    color: maroon
 }
